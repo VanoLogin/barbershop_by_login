@@ -1,0 +1,382 @@
+:root {
+    --prime-color: #303030;
+    --second-color: #FFFFFF;
+    --accent-color: #ff6c00;
+}
+
+body {
+    font-family: "Open Sans", "Raleway", "sans-serif";
+}
+
+/* .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+} */
+
+li, ul, h1, h2, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+    list-style-type: none;
+}
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+}
+.visually-hidden { 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+       
+}
+.links:hover,
+.links:focus {
+    color: var(--accent-color);
+
+}
+
+
+/* -----------------------------HEADER------------ */
+/* .container-header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+header {
+    background-color: gray;
+}
+.header-link:hover,
+.header-link:focus {
+    color: #FF6C00;
+}
+.header-link {
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--second-color);  
+}
+.header-tell {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--second-color);
+}
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    color: var(--second-color);
+}
+.header-btn:hover,
+.header-btn:focus {
+    background-color: var(--accent-color);
+}
+.header-tell:hover,
+.header-tell:focus {
+    color: var(--accent-color);
+}
+
+/* ------------------------HEro-------------*/
+
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color);
+}
+.sub-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--second-color);
+}
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--prime-color);
+}
+
+
+/* -------------------ABOUT---------- */
+
+.pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--prime-color);
+}
+.about-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--prime-color);
+}
+.about-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-btm {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--prime-color);
+}
+.about-btm:hover,
+.about-btm:focus {
+    background-color: var(--accent-color);
+}
+/* -----------------PrICES */
+.prices-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: var(--second-color);
+}
+.prices-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.prices-btn {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-color);
+}
+
+/* --------------------BENEFITS */
+.benefits-item > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: var(--prime-color);
+
+}
+.benefits-item > sup {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.37;
+    text-align: center;
+
+    color: #FF6C00;
+}
+.benefits-item > p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+}
+.benefits-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #303030;
+
+}
+.benefits-after-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+/* ----------------------BARBERS */
+
+.barbers-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+}
+.barbers-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.barbers-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+.barbers-status {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FF6C00;
+}
+/* ---------------------Gallery-------- */
+.gallery-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+/* -------------------FORM-------------- */
+.form-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+/* --------------------CONTACTs */
+
+.contacts {
+    background: #191C26;
+}
+.contacts-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.contacts-item {
+    font-style: normal;
+    color: #9DA4BD;
+}
+
+.contact-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.contacts-pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.contacts-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/* ----------------footer--------- */
+.footer-items:hover,
+.footer-items:focus {
+    color: var(--accent-color);
+}
+
+footer-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #9DA4BD;
+}
+.footer-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36x;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
